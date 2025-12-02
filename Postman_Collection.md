@@ -63,7 +63,7 @@ Tip: also import the environment file `dev.postman_environment.json` so `{{baseU
 
 Use a Postman environment to store values that change between runs (dev/staging/prod). For this collection, the important variable is:
 
-* `baseUrl` — the base URL of the API.
+* `baseUrl` - the base URL of the API.
 
 **Sample `dev` environment JSON (key fields):**
 
