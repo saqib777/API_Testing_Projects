@@ -103,7 +103,7 @@ The collection includes two starter requests: `GET List Users` and `POST Create 
 
 **Postman Tests (what they do)**
 
-* `Status code is 200` — checks the HTTP status is 200 OK.
+* `Status code is 200` - checks the HTTP status is 200 OK.
 * `Response has data field` - ensures the response JSON contains a top-level `data` field (common pattern for paginated responses).
 
 **Notes**
@@ -134,8 +134,8 @@ The collection includes two starter requests: `GET List Users` and `POST Create 
 
 **Postman Tests (what they do)**
 
-* `Status code is 201` — checks the API returned `201 Created`.
-* `Created user contains id` — verifies the response JSON includes an `id` field, confirming the resource was created (even if the API is a mock and does not persist data).
+* `Status code is 201` - checks the API returned `201 Created`.
+* `Created user contains id` - verifies the response JSON includes an `id` field, confirming the resource was created (even if the API is a mock and does not persist data).
 
 **Notes**
 
@@ -199,8 +199,8 @@ Why: Makes sure the API returns data consistent with the request.
 
 Examples:
 
-* POST with missing `name` field — expect `400 Bad Request` or a well-formed error.
-* GET with invalid page number — expect `200` with empty `data` or `400` depending on API design.
+* POST with missing `name` field - expect `400 Bad Request` or a well-formed error.
+* GET with invalid page number - expect `200` with empty `data` or `400` depending on API design.
 
 Pattern:
 
