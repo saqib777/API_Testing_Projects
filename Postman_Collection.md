@@ -104,7 +104,7 @@ The collection includes two starter requests: `GET List Users` and `POST Create 
 **Postman Tests (what they do)**
 
 * `Status code is 200` — checks the HTTP status is 200 OK.
-* `Response has data field` — ensures the response JSON contains a top-level `data` field (common pattern for paginated responses).
+* `Response has data field` - ensures the response JSON contains a top-level `data` field (common pattern for paginated responses).
 
 **Notes**
 
