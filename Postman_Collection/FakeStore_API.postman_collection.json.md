@@ -1,3 +1,4 @@
+# FakeStore API Collection — Detailed Documentation
 ```
 {
   "info": {
@@ -141,7 +142,7 @@
 
 ```
 
-# FakeStore API Collection — Detailed Documentation
+
 
 This document explains the purpose, structure, usage, and testing flow of the **FakeStore_API_Testing (Option A)** Postman collection. It is written to help beginners understand how to approach API testing while still serving as professional-grade documentation for SDET portfolios.
 
